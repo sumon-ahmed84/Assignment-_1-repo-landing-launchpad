@@ -42,7 +42,7 @@ nav h3{
 }
 .text-center{
     text-align: center;
-    width: 905px;
+    max-width: 905px;
     height: 237px;
     margin: 0px auto;
 }
@@ -56,4 +56,47 @@ nav h3{
     width: 174px;
     height: 48px;
     margin-top: 37px;
+}
+/* action section style */
+.action-section{
+    display: flex;
+    max-width: 1140px;
+    height: 328px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    gap:28px;
+}
+.left-section{
+    width: 512px;
+    height: 203px;
+}
+.title{
+    width: 517px;
+    height:49px ;
+    font-weight: 700px;
+    font-size: 42px;
+    color: #252432;
+    
+}
+.sub-title{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #252432;
+    margin-top: 23px;
+}
+.three-btn{
+    width: 229px;
+    height: 48px;
+    font-weight: 700px;
+    font-size: 16px;
+    padding: 12px 36px;
+    margin-top: 23px;
+}
+.right-section{
+    width: 403px;
+    height: 328px;
+    border-radius: 20px;
 }
