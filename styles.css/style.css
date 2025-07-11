@@ -106,7 +106,7 @@ nav h3{
 .Productive-section{
     max-width: 1140px;
     height: 306px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color:rgba(78, 71, 255, 10%);
     margin: 0px auto ;
     justify-items: center;
@@ -138,4 +138,76 @@ nav h3{
     font-size: 20px;
     font-weight: normal;
     color: rgba(0, 0, 0, 50%);
+}
+/* Review section */
+.review{
+    max-width: 1140px;
+    height: 342px;
+    margin: 0px auto;
+
+}
+.all-review{
+    display: flex;
+    gap: 20px;
+    
+}
+.review-heading{
+    max-width:1140px;
+    height: 49px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    margin-top: 80px;
+
+    
+}
+.review-box{
+    width: 367px;
+    height: 243px;
+    padding: 24px;
+    background-color:rgba(87, 81, 81, 0.075);
+    border-radius: 15px;
+    margin-top: 40px;
+    align-content: center;
+    
+
+}
+.review-title{
+    width: 318px;
+    height: 44px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.review-sub-title{
+    width: 318px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #1E1E1E;
+}
+.image-reviewer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.date-name{
+    width: 267px;
+    height: 46px;
+    ;
+}
+.review-img{
+    display: flex;
+    gap: 10px;
+}
+.reviewer-name{
+    font-weight: 400;
+    font-size:16px ;
+    color:#B3B3B3 ;
+}
+.date{
+    font-weight: normal;
+    font-size:16px ;
+    color:#B3B3B3 ;
 }
