@@ -144,6 +144,7 @@ nav h3{
     max-width: 1140px;
     height: 342px;
     margin: 0px auto;
+    margin-bottom: 80px;
 
 }
 .all-review{
@@ -210,4 +211,62 @@ nav h3{
     font-weight: normal;
     font-size:16px ;
     color:#B3B3B3 ;
+}
+
+.Lets-Get-In-Touch-Section{
+    width: 1140px;
+    height: 640px;
+    background-color: rgba(255, 255, 255, 50%);
+    
+    gap: 100px;
+    padding: 40px 0px;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+
+}
+
+.section-colum{
+    width: 528px;
+    height: 232px;
+    
+}
+
+    
+.action{
+    width: 497px;
+    height: 62px;
+
+}
+
+.section-title{
+    font-size: 97px;
+    font-weight: 700px;
+    width: 528px;
+    height: 232px;
+    color: #000000;
+    
+}
+.form{
+    font-size: 18px;
+    font-weight:300 ;
+    color: #000000;
+}
+section input[type="text"], input[type="email"],textarea{
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 90%;
+  padding: 10px 20px ;
+  
+  margin-bottom: 10px;
+}
+#Message{
+    height: 130px;
+}
+.form-colum{
+    width: 528px;
+    height: 490px;
+    align-content: center;
 }
