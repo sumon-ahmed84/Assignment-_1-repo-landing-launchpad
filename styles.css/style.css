@@ -44,12 +44,12 @@ nav h3 {
 .header {
   background-image: url("../image/Hero-bg.png");
   background-repeat: no-repeat;
-  width: 1440px;
+  background-size:100% 100% ;
+  width: 1500px;
   height: 698px;
-
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .text-center {
@@ -211,14 +211,34 @@ nav h3 {
   font-size: 16px;
   color: #b3b3b3;
 }
+/* optional section */
+.optional{
+    width: 1140px;
+    height: 597px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+
+.free-btn{
+    width: 195px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.op-img{
+    width: 840px;
+    height: 365px;
+    border-radius: 25px;
+}
 
 .Lets-Get-In-Touch-Section {
   width: 1140px;
   height: 640px;
   background-color: rgba(240, 235, 235, 0.5);
-
   gap: 100px;
-  padding: 40px 0px;
+  padding: 20px 0px;
   margin: 0px auto;
   align-items: center;
   display: flex;
@@ -242,11 +262,7 @@ nav h3 {
   height: 232px;
   color: #000000;
 }
-.form {
-  font-size: 18px;
-  font-weight: 300;
-  color: #000000;
-}
+
 section input[type="text"],
 input[type="email"],
 textarea {
@@ -261,11 +277,23 @@ textarea {
 }
 #Message {
   height: 100px;
+  font-size: 20px;
+  font-weight: 300px;
+}
+.placeholder-text{
+    font-size: 20px;
+  font-weight: 300px;
 }
 .form-colum {
   width: 528px;
   height: 490px;
   align-content: center;
+}
+
+.form {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #000000;
 }
 
 /* footer section */
@@ -310,4 +338,25 @@ footer {
   color: white;
   cursor: pointer;
 }
+.op-title{
+    width: 616px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: 700px;
+    color: #000000;
+    display: flex;
+    margin: 0PX auto;
+    justify-content: center;
+    margin-bottom: 15PX;
+}
+.op-sub-title{
+    width: 487PX;
+    height: 22PX;
+    display: flex;
+    margin: 0PX auto;
+    justify-content: center;
+    color: rgba(0, 0, 0, 50%);
+    margin-bottom: 15PX;
+}
+
 
